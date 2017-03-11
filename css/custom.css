@@ -1,0 +1,452 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body {}
+    
+    .section-title {
+        text-align: center;
+        margin-bottom: 77px;
+    }
+    
+    .section-title h3 {
+        font-size: 14px;
+        margin-top: 16px;
+        color: #212121;
+    }
+    
+    .section-title h2 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: .04em;
+    }
+    /*Header*/
+    
+    .header {
+        width: 100%;
+        height: 690px;
+        background-image: url("../img/entete.jpg");
+        background-size: cover;
+        /** background-color: rgba(232, 222, 222, 0.7);**/
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    
+    .navbar-nav {
+        display: inline-block;
+        float: none!important;
+        vertical-align: top;
+    }
+    
+    .navbar-toggle {
+        margin-top: 12px;
+        border-color: #fff;
+    }
+    
+    .full {
+        margin: 0px auto;
+    }
+    
+    .text {
+        width: 400px;
+        height: 100px;
+        margin: 50px auto
+    }
+    
+    .text p {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 200px;
+        font-size: 20px
+    }
+    /*End Header*/
+    /*scroll Down*/
+    
+    .scroll-down {
+        position: absolute;
+        left: 50%;
+        top: 573px;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px auto;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        animation: down 2s ease infinite;
+        -webkit-animation: down 2s ease infinite;
+    }
+    
+    .scroll-down:hover {
+        background-color: darkorange;
+        border: 2px solid darkorange;
+    }
+    /* end scroll Down*/
+    /* start Navbarr*/
+    
+    .features {
+        height: 53px;
+        text-align: center;
+    }
+    
+    .features ul li a {
+        margin: 0px auto;
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .features ul li a:hover {
+        border-bottom: 3px solid #fc252d;
+    }
+    
+    .features ul li a:focus {
+        background-color: #2a363b;
+    }
+    
+    .nav {
+        background-color: #2a363b;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    
+    .nav a {
+        padding: 10px 0 8px;
+        margin: 10px 25px;
+        font-weight: 700;
+        color: #fff;
+        transition: all .2s;
+    }
+    
+    .nav li a:hover {
+        background-color: #2a363b;
+        border-bottom: 3px solid #fc252d;
+    }
+    
+    .nav ul li {
+        display: inline-block;
+    }
+    
+    .active {
+        border-bottom: 3px solid #fc252d;
+    }
+    /*End Navbar*/
+    /* content*/
+    /* start  about */
+    
+    #about {
+        /*        height: 861px;*/
+        background-color: #eeeeee;
+        padding-top: 67px;
+        padding-bottom: 90px;
+    }
+    
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .img-about {
+        width: 360px;
+        height: 486px;
+    }
+    
+    .img-about img {
+        width: 100%;
+    }
+    
+    .about-content h2 {
+        margin-top: 30px;
+        margin-bottom: 22px;
+        font-size: 30px;
+    }
+    
+    .about-content p {
+        font-size: 16px;
+        line-height: 2.1;
+    }
+    
+    .about-content span {
+        margin-top: 13px;
+    }
+    
+    .about-content .button-download {
+        display: inline-block;
+        margin-top: 7px;
+        background-color: #2a2c30;
+        color: #fff;
+        transition: all .2s;
+    }
+    
+    .about-content .button-download a {
+        display: inline-block;
+        padding: 13px 22px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .about-content .button-download a i {
+        color: #fff;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    .social-links {
+        background-color: #2a2c30;
+        margin-top: 2px;
+        width: 360px;
+    }
+    
+    .social-links ul li {
+        display: inline-block;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    
+    .social-links ul li a {
+        margin: 0px 11px 0px 24px;
+    }
+    
+    .social-links ul li a i {
+        color: #fff;
+        font-size: 17px;
+    }
+    
+    .social-links ul li a i:hover {
+        color: #fc252d;
+    }
+    /*End About */
+    /*skills*/
+    
+    .skils {
+        background-color: #2a2c30;
+        padding-top: 67px;
+    }
+    
+    .skils h2 {
+        color: #fff;
+    }
+    
+    .skils .section-title h2 {
+        color: #fff;
+    }
+    
+    .skils .section-title h3 {
+        color: #fff;
+    }
+    
+    .skils .single-skills {
+        height: 36px;
+        margin-bottom: 35px;
+    }
+    
+    .skils .progress {
+        height: 36px;
+        border-radius: 0;
+    }
+    
+    .skils .progress-bar {
+        background-color: #fc252d;
+        height: 36px;
+    }
+    
+    .skils .skill-name {
+        position: absolute;
+        margin-top: 8px;
+        left: 85px;
+        color: #fff;
+    }
+    
+    .skills {
+        height: 400px;
+        margin: 0 12% 80px;
+    }
+    
+    .skills h2 {
+        margin-top: 0;
+        margin-bottom: 35px;
+        font-size: 20px;
+        text-align: center;
+    }
+    /*end skills*/
+    /*start services*/
+    
+    #services {
+        background-color: #eeeeee;
+        padding-top: 67px;
+    }
+    
+    .services {
+        padding: 0 20px 60px;
+        text-align: center;
+        background-color: #d8d2d2;
+        margin-bottom: 2px;
+    }
+    
+    .services i {
+        font-size: 60px;
+        color: rgb(255, 94, 0);
+    }
+    
+    .services h2 {
+        margin-top: 13px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .services p {
+        line-height: 1.3;
+        margin: 0 0 10px;
+    }
+    /*End Services*/
+    /*start caroussel*/
+    
+   .caroussel {
+        width: 100%;
+        /*        height: 300px;*/
+        background-color: rgba(25, 12, 12, 0.33);
+    }
+    
+    .caroussel h1 {
+        text-align: center;
+    }
+    
+    .caroussel .carousel-inner {
+        width: 60%;
+        text-align: center;
+        left: 20%;
+        right: 20%;
+    }
+    
+    .caroussel .carousel-indicators {
+        position: static;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .caroussel .carousel-indicators li {
+        width: 80px;
+        height: 80px;
+        text-indent: 0;
+        margin-top: 2%;
+        opacity: 0.4;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 5px;
+    }
+    
+    .caroussel .carousel-indicators li.active {
+        opacity: 1;
+        border-bottom: none;
+    }
+    
+    .caroussel .carousel-indicators li img {
+        max-width: 100%;
+    }
+    .carousel-inner .item span{
+        font-size:18px;
+        color: #e41b17
+    }
+    /*end caroussel*/
+
+    /*start section experience */
+    
+    .experience {
+        text-align: center;
+        background-color: rgb(42, 44, 48);
+        color: #fff;
+    }
+    
+    .experience .section-title {
+        margin-top: 70px;
+    }
+    
+    .experience .section-title h3 {
+        color: #fff;
+    }
+    
+    .experience .exp {
+        height: 101px;
+        background-color: #fff;
+        border: 2px solid #f1f1;
+        margin-bottom: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .experience .exp .left {
+        width: 20%;
+       /*min-height: 101px;*/
+        background-color: #eeeeee;
+        float: left;
+        color: #333;
+    }
+    
+    .experience .exp .left .title {
+        line-height: 20px;
+        display: inline;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .experience .exp .left .title span {
+        font-size: 20px;
+        padding: none;
+        margin: none;
+    }
+    
+    .experience .exp .left .title h5 {
+        font-size: 17px;
+        color: #2a2c30;
+    }
+    
+    .experience .exp .right {
+        width: 10%;
+        height: 100%;
+        float: right;
+        background-color: #604fdd;
+        cursor: pointer;
+    }
+    
+    .experience .exp .right:hover {
+        background-color: #b3aeae;
+    }
+    
+    .experience .exp .right i {
+        margin: 50px auto;
+        margin: 39px auto;
+        font-size: 30px;
+    }
+    
+    .experience .exp .center {
+        width: 70%;
+        float: left;
+        text-align: left;
+        height: 100%;
+        padding: 0px 0px 0px 20px;
+        color: #333;
+        
+
+    }
+    
+    .experience .exp .center h2 {
+        font-size: 20px;
+    }
+    
+    .experience .exp .center h3 {
+        font-size: 17px;
+    }
+      .experience .exp .coment{
+        background-color: #fff;
+        color: #aaa;
+        height: 200px;
+        margin-bottom: 1px;
+        margin-top: 2px;
+    }
+    /*end section experience*/
+
+
